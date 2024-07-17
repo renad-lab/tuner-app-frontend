@@ -1,0 +1,36 @@
+.SongEditFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.SongEditFormBox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.SongEditFormBox form {
+  display: flex;
+  flex-direction: column;
+}
+
+.SongEditFormBox label {
+  margin-bottom: 5px;
+}
+
+.SongEditFormBox input,
+.SongEditFormBox button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.SongEditFormBox input[type="checkbox"] {
+  margin-right: 5px;
+}

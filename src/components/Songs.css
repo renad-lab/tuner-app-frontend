@@ -1,0 +1,26 @@
+.SongsContainer {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SongsTable {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.SongsTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.SongsTable th,
+.SongsTable td {
+  padding: 8px;
+  text-align: center;
+}
+
+.SongsTable th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
